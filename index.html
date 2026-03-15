@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; frame-src https://www.google.com/recaptcha/ http://googleusercontent.com/maps.google.com/; style-src 'self' 'unsafe-inline'; font-src 'self' data:;">
+    <title>Auto serwis | Profesjonalny warsztat</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html#start" class="logo">Auto<span class="logo-accent"></span><span class="logo-text"> serwis</span></a>
+            
+            <button class="menu-toggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#atuty" class="nav-link">Dlaczego my</a></li>
+                    <li><a href="#pakiety" class="nav-link">Oferta</a></li>
+                    <li><a href="#uslugi" class="nav-link">Usługi</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="#kontakt" class="nav-link btn-contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="start" class="hero-section scroll-reveal">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Twój samochód w dobrych rękach w<br><span>Auto serwis</span></h1>
+                <p>Profesjonalna diagnoza i naprawa dopasowana do Twoich potrzeb. Wsiadasz i jedziesz!</p>
+                <div class="hero-actions">
+                    <a href="#pakiety" class="btn btn-primary">Sprawdź ofertę</a>
+                    <a href="#atuty" class="btn btn-outline">Dlaczego my?</a>
+                </div>
+            </div>
+            <div class="hero-brands">
+                <span>AUDI</span><span>BMW</span><span>MERCEDES</span>
+                <span>VOLKSWAGEN</span><span>TOYOTA</span><span>HONDA</span>
+            </div>
+        </section>
+
+        <section id="atuty" class="section bg-light scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Dlaczego warto naprawiać u nas?</h2>
+                    <p>Każde auto traktujemy jak indywidualny projekt.</p>
+                </div>
+                
+                <div class="grid-3">
+                    <div class="feature-box">
+                        <div class="icon">&#127919;</div>
+                        <h3>Dopasowane do potrzeb</h3>
+                        <p>Diagnoza i plan naprawy dostosowane do Twoich wymagań i budżetu. Razem znajdziemy idealne rozwiązanie.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="icon">&#128203;</div>
+                        <h3>Gotowy kosztorys</h3>
+                        <p>Otrzymujesz szczegółowy plan z wyceną części i robocizny przed rozpoczęciem jakichkolwiek prac.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="icon">&#9881;</div>
+                        <h3>Szybki serwis</h3>
+                        <p>Pełna optymalizacja czasu pracy. Odbierasz auto w ustalonym terminie i od razu możesz ruszać w trasę.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pakiety" class="section bg-white scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Oferta pakietowa</h2>
+                    <p>Wybierz pakiet przeglądu dopasowany do Twojego auta</p>
+                </div>
+
+                <div class="grid-3">
+                    <div class="package-box">
+                        <h3>Przegląd Basic</h3>
+                        <div class="price">149 <span>zł</span></div>
+                        <ul>
+                            <li>&#10003; Kontrola płynów eksploatacyjnych</li>
+                            <li>&#10003; Sprawdzenie zawieszenia</li>
+                            <li>&#10003; Diagnostyka komputerowa</li>
+                            <li>&#10003; Kontrola oświetlenia</li>
+                        </ul>
+                        <a href="#kontakt" class="btn btn-outline btn-full">Wybierz pakiet</a>
+                    </div>
+                    
+                    <div class="package-box popular">
+                        <div class="badge">Popularne</div>
+                        <h3>Przegląd Standard</h3>
+                        <div class="price">399 <span>zł</span></div>
+                        <ul>
+                            <li>&#10003; Wszystko z pakietu Basic</li>
+                            <li>&#10003; Wymiana oleju i filtra</li>
+                            <li>&#10003; Wymiana filtrów kabinowych</li>
+                            <li>&#10003; Serwis klimatyzacji</li>
+                        </ul>
+                        <a href="#kontakt" class="btn btn-primary btn-full">Wybierz pakiet</a>
+                    </div>
+
+                    <div class="package-box">
+                        <h3>Przegląd Premium</h3>
+                        <div class="price">od 799 <span>zł</span></div>
+                        <ul>
+                            <li>&#10003; Pełny przegląd techniczny</li>
+                            <li>&#10003; Wymiana rozrządu</li>
+                            <li>&#10003; Ustawienie zbieżności</li>
+                            <li>&#10003; Mycie i detailing wnętrza</li>
+                        </ul>
+                        <a href="#kontakt" class="btn btn-outline btn-full">Wybierz pakiet</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="uslugi" class="section bg-light scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Profesjonalny Serwis</h2>
+                    <p>Szybka i skuteczna pomoc w przypadku awarii oraz regularne przeglądy</p>
+                </div>
+
+                <div class="grid-3">
+                    <div class="service-box">
+                        <div class="icon">&#128269;</div>
+                        <h3>Przeglądy okresowe</h3>
+                        <p>Przygotowanie do przeglądu rejestracyjnego, sprawdzenie stanu technicznego pojazdu, kontrola płynów.</p>
+                        <span class="price-tag">od 100 zł</span>
+                    </div>
+                    <div class="service-box">
+                        <div class="icon">&#128738;</div>
+                        <h3>Wymiana oleju i filtrów</h3>
+                        <p>Szybka wymiana oleju silnikowego oraz filtrów: oleju, powietrza, paliwa i kabinowego.</p>
+                        <span class="price-tag">od 80 zł</span>
+                    </div>
+                    <div class="service-box">
+                        <div class="icon">&#128680;</div>
+                        <h3>Serwis hamulców</h3>
+                        <p>Wymiana klocków, tarcz hamulcowych, płynu oraz regeneracja zacisków. Bezpieczeństwo to podstawa.</p>
+                        <span class="price-tag">od 150 zł</span>
+                    </div>
+                    <div class="service-box">
+                        <div class="icon">&#128187;</div>
+                        <h3>Diagnostyka komputerowa</h3>
+                        <p>Odczyt i kasowanie błędów, adaptacje sterowników, diagnoza usterek elektronicznych.</p>
+                        <span class="price-tag">od 120 zł</span>
+                    </div>
+                    <div class="service-box">
+                        <div class="icon">&#10052;</div>
+                        <h3>Serwis klimatyzacji</h3>
+                        <p>Odgrzybianie, uzupełnianie czynnika chłodzącego i sprawdzanie szczelności układu.</p>
+                        <span class="price-tag">od 180 zł</span>
+                    </div>
+                    <div class="service-box">
+                        <div class="icon">&#9881;</div>
+                        <h3>Mechanika ogólna</h3>
+                        <p>Wymiana rozrządu, naprawa zawieszenia, układu wydechowego i sprzęgła.</p>
+                        <span class="price-tag">Wycena indyw.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section bg-white scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Często zadawane pytania</h2>
+                    <p>Odpowiedzi na najczęściej zadawane pytania</p>
+                </div>
+                
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">Jak długo trwa standardowy przegląd? <span class="indicator">&#43;</span></button>
+                        <div class="faq-answer">
+                            <p>Standardowy przegląd z wymianą oleju i filtrów zajmuje zazwyczaj od 1 do 2 godzin. W przypadku większych pakietów czas może się wydłużyć do 4 godzin.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Czy udzielacie gwarancji na naprawy? <span class="indicator">&#43;</span></button>
+                        <div class="faq-answer">
+                            <p>Tak, na wszystkie nasze usługi oraz zamontowane u nas nowe części udzielamy pisemnej, 12-miesięcznej gwarancji.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Czy mogę przynieść własne części? <span class="indicator">&#43;</span></button>
+                        <div class="faq-answer">
+                            <p>Akceptujemy montaż części dostarczonych przez klienta, jednak w takim przypadku gwarancja obejmuje wyłącznie wykonaną przez nas usługę (robociznę), a nie samą część.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Czy otrzymam auto zastępcze? <span class="indicator">&#43;</span></button>
+                        <div class="faq-answer">
+                            <p>Przy naprawach trwających powyżej 24 godzin oferujemy możliwość wynajęcia auta zastępczego w preferencyjnej cenie dla naszych klientów.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontakt" class="section bg-light scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Skontaktuj się z nami</h2>
+                    <p>Masz pytania lub chcesz umówić wizytę? Wypełnij formularz lub zadzwoń.</p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-details">
+                        <div class="info-row">
+                            <span class="icon">&#9993;</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p><span class="protected-data" data-t="bWFpbHRv" data-v="c2Vyd2lzQGF1dG9zZXJ3aXMucGw=">Ładowanie...</span></p>
+                            </div>
+                        </div>
+                        <div class="info-row">
+                            <span class="icon">&#9742;</span>
+                            <div>
+                                <strong>Telefon (Zadzwoń do nas)</strong>
+                                <p><span class="protected-data" data-t="dGVs" data-v="KzQ4MTIzNDU2Nzg5" data-f="KzQ4IDEyMyA0NTYgNzg5">Ładowanie...</span> <br><small>Dostępny w godzinach 8-18</small></p>
+                            </div>
+                        </div>
+                        <div class="info-row">
+                            <span class="icon">&#128205;</span>
+                            <div>
+                                <strong>Lokalizacja</strong>
+                                <p>ul. Mechaników 12, 00-000 Warszawa</p>
+                            </div>
+                        </div>
+                        
+                        <div class="map-box">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156388.35438505086!2d20.92111270231572!3d52.23306532087546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2sWarszawa!5e0!3m2!1spl!2spl!4v1700000000000!5m2!1spl!2spl" width="100%" height="400" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-box">
+                        <form class="contact-form" action="https://formspree.io/f/TWOJ_ID" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Imię i nazwisko *</label>
+                                    <input type="text" name="name" class="form-control" placeholder="Jan Kowalski" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Numer telefonu *</label>
+                                    <input type="tel" name="phone" class="form-control" placeholder="+48 123 456 789" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Adres email *</label>
+                                <input type="email" name="email" class="form-control" placeholder="jan@example.com" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Marka i model auta</label>
+                                    <input type="text" name="car" class="form-control" placeholder="np. Toyota Corolla 2018">
+                                </div>
+                                <div class="form-group">
+                                    <label>Rodzaj usługi</label>
+                                    <select name="service" class="form-control">
+                                        <option>Wybierz...</option>
+                                        <option>Przegląd okresowy</option>
+                                        <option>Naprawa mechaniczna</option>
+                                        <option>Diagnostyka</option>
+                                        <option>Inne</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Opis problemu *</label>
+                                <textarea name="message" class="form-control" placeholder="Opisz krótko z czym przyjeżdżasz..." rows="4" required></textarea>
+                            </div>
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="rodo" required>
+                                <label for="rodo">Akceptuję politykę prywatności i wyrażam zgodę na przetwarzanie danych. *</label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">Wyślij wiadomość</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a href="index.html#start" class="logo">Auto<span class="logo-accent"></span><span class="logo-text"> serwis</span></a>
+                <p>Profesjonalny serwis i diagnostyka komputerowa. Twój samochód zawsze gotowy do drogi.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#atuty">Dlaczego my</a>
+                <a href="#pakiety">Oferta</a>
+                <a href="#uslugi">Usługi</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <div class="footer-links">
+                <a href="regulamin.html">Regulamin</a>
+                <a href="prywatnosc.html">Polityka prywatności</a>
+                <a href="#kontakt">Kontakt</a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2026 Auto serwis. Wszystkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <div id="cookieBanner" class="cookie-banner">
+        <div class="cookie-content">
+            <strong>Używamy plików cookies</strong>
+            <p>Ta strona wykorzystuje pliki cookies w celu zapewnienia najlepszej jakości usług. Korzystając ze strony wyrażasz zgodę na ich używanie zgodnie z <a href="prywatnosc.html">polityką prywatności</a>.</p>
+        </div>
+        <div class="cookie-buttons">
+            <button id="acceptCookies" class="btn btn-primary">Akceptuję</button>
+            <a href="prywatnosc.html#cookies" class="btn btn-outline">Ustawienia</a>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
